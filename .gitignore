@@ -1,2 +1,4 @@
 .DS_Store
 /nodejs/node_modules
+/golang/src/vendor
+/golang/src/dist

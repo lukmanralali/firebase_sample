@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  sample-firebase-golang:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sample_firebase_golang
+    volumes:
+      - './src:/go/src/firebase_sample:rw'
+    tty: true
